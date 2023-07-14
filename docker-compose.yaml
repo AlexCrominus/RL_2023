@@ -2,6 +2,7 @@ version: '3'
 services:
   pc-1:
     build: ./pc-1/
+    privileged: true
   containernet:
     build: ./containernet/
     privileged: true
